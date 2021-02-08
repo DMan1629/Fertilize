@@ -1,0 +1,13 @@
+name: Fertilize
+main: me.DMan16.Fertilize.Main
+version: 1.0
+description: Fertilizer blocks
+author: DMan16
+api-version: 1.16
+
+commands:
+  Fertilize:
+    permission: fertilize.command
+permissions:
+  fertilize.command: {default: OP}
+  fertilize.place: {default: true}
